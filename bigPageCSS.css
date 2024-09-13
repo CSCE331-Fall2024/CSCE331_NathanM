@@ -1,0 +1,277 @@
+/* General text font and color */
+body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    background-image: #020202;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation section */
+.navigation {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #1a1a1a;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navigation .themeButton{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation button {
+    background: blue;
+    color: white;
+    border: 1px solid #1a1a1a;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navigation button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #1a1a1a;
+}
+
+/*Big Title Section*/
+
+.content h2 {
+    color: white;
+    line-height: 100px;
+    font-size: 70px;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+
+.content a #link,#gram {
+    position: left, absolute;
+    background: red;
+    color: white;
+    font-size:78%;
+    margin-top:0;
+    float:right;
+    height: 100px;
+    top: 310px;
+    width: 85px;
+    border: 0;
+    border-color: #0E76A8;
+    cursor: pointer;
+    border-radius: 10%;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2 ease-in-out;
+}
+
+.content a button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #1a1a1a;
+}
+/*About Me*/
+.sectionAbout-Me h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: #0044cc;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#AboutMeBox p {
+    font-size: 1.1em;
+    display:inline-flex;
+}
+
+.sectionAbout-Me {
+    background-color: black;
+    text-align: left;
+    color: white;
+    width: 100%;
+    max-width: 60%;
+    border: 5px solid blue;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+.me {
+    margin: 0;
+    position: inline-flex;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(16, 152, 231, 0.973);
+    color: white;
+    text-align: center;
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+/*technical Port*/
+.topContainerTech{
+    background-size: cover;
+    font-family: 'Serif'; font-size: 100%;
+    color: White;
+    text-align: center;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    height: 700px;
+    font-size: 70px;
+    margin-top: 0;
+}
+.topContainerTech{
+    height: 200px;
+    text-align: center;
+}
+.topContainerTech .topTitleTech{
+    font-size:70px;
+    margin-top:0;
+    writing-mode: vertical-lr;
+    float:right;
+    text-orientation: upright;
+}
+.topContainerTech .topContainerWordsTech{
+    color:black;
+    display:inline-flex;
+    font-size: 0;
+}
+.topContainerTech .codeSecTech{
+    margin-right:10%;
+    display: inline-block;
+}
+
+.topContainerTech .SESecTech{
+    margin-left:10%;
+    display: inline-block;
+}
+.topContainerTech #seParTech{
+    font-weight: bold;
+    width:400px;
+}
+.topContainerTech #codeParTech{
+    text-transform:Uppercase;
+    font-weight: bold;
+}
+.topContainerTech .blahTech{
+    padding-top: 200px;
+}
+
+.bottomContainerTech{
+    border: 5px solid blue;
+    background-color:black;
+    position: center;
+    max-width: 60%;
+    width:100%;
+    padding: 50px;
+    margin: 20px auto;
+    
+}
+.bottomContainerTech h3{
+    color: blue;
+    font-size: 50px;
+}
+.bottomContainerTech{
+    color:white;
+}
+
+.topContainer{
+    background-size: cover;
+    font-family: 'Serif'; font-size: 100%;
+    color: White;
+    text-align: center;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    height: 700px;
+    font-size: 70px;
+    margin-top: 0;
+}
+.topContainer{
+    height: 200px;
+    text-align: center;
+}
+.topContainer .topTitle{
+    font-size:70px;
+    margin-top:0;
+    writing-mode: vertical-lr;
+    float:right;
+    text-orientation: upright;
+}
+.topContainer .topContainerWords{
+    color:black;
+    display:inline-flex;
+    font-size: 0;
+}
+.topContainer .codeSec{
+    margin-right:10%;
+    display: inline-block;
+}
+
+.topContainer .SESec{
+    margin-left:10%;
+    display: inline-block;
+}
+.topContainer #sePar{
+    font-weight: bold;
+    width:400px;
+}
+.topContainer #codePar{
+    text-transform:Uppercase;
+    font-weight: bold;
+}
+.topContainer .blah{
+    padding-top: 200px;
+}
+
+.bottomContainer{
+    border: 5px solid blue;
+    background-color:black;
+    position: center;
+    max-width: 60%;
+    width:100%;
+    padding: 50px;
+    margin: 20px auto;
+
+}
+.bottomContainer h3{
+    color: blue;
+    font-size: 50px;
+}
+.bottomContainer{
+    color:white;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+footer button{
+    background:blue;
+    color: white;
+    border: 1px solid #1a1a1a;
+    border-radius: 25%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2s ease-in-out;
+}

@@ -45,7 +45,7 @@ body {
 
 /*header/introduction box*/
 
-.topContainer{
+.topContainerTech{
     background: url('boxGloves.jpg') no-repeat center;
     background-size: cover;
     font-family: 'Serif'; font-size: 100%;
@@ -57,41 +57,42 @@ body {
     height: 700px;
     font-size: 70px;
     margin-top: 0;
+    
 }
-.topContainer{
+.topContainerTech{
     height: 700px;
     text-align: center;
 }
-.topContainer .topTitle{
+.topContainerTech .topTitleTech{
     font-size:70px;
     margin-top:0;
 }
-.topContainer .topContainerWords{
+.topContainerTech .topContainerWordsTech{
     display:inline-flex;
     font-size: 25px;
 }
-.topContainer .codeSec{
+.topContainerTech .codeSecTech{
     margin-right:10%;
     display: inline-block;
 }
 
-.topContainer .SESec{
+.topContainerTech .SESecTech{
     margin-left:10%;
     display: inline-block;
 }
-.topContainer #sePar{
+.topContainerTech #seParTech{
     font-weight: bold;
     width:400px;
 }
-.topContainer #codePar{
+.topContainerTech #codeParTech{
     text-transform:Uppercase;
     font-weight: bold;
 }
-.topContainer .blah{
+.topContainerTech .blahTech{
     padding-top: 200px;
 }
 
-.bottomContainer{
+.bottomContainerTech{
     border: 5px solid blue;
     background-color: rgba(16, 152, 231, 0.973);
     position: center;

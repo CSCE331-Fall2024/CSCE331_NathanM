@@ -1,0 +1,265 @@
+/* General text font and color */
+body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    background-image: #020202;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation section */
+.navigation {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #1a1a1a;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navigation .themeButton{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation button {
+    background:red;
+    color: white;
+    border: 1px solid #1a1a1a;
+    border-radius: 25%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navigation button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #1a1a1a;
+}
+
+/*Big Title Section*/
+.content .homepage {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #f7f1f1;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+
+.content h2 {
+    color: white;
+    line-height: 100px;
+    font-size: 70px;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+}
+
+.content {
+    background: url('BoxRing.jpg') no-repeat center;
+    height: 700px;
+    text-align: center;
+}
+
+
+.content a #link,#gram {
+    position: left, absolute;
+    background: rgba(16, 152, 231, 0.973);
+    color: white;
+    font-size: 78%;
+    height: 50px;
+    top: 310px;
+    width: 85px;
+    border: 0;
+    border-color: #0E76A8;
+    cursor: pointer;
+    border-radius: 10%;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2 ease-in-out;
+}
+
+.content a button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #1a1a1a;
+}
+/*About Me*/
+.sectionAbout-Me h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #0044cc;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#AboutMeBox p {
+    font-size: 1.1em;
+}
+
+.sectionAbout-Me {
+    background-color: rgba(16, 152, 231, 0.973);
+    text-align: center;
+    width: 100%;
+    max-width: 60%;
+    border: 5px solid blue;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+.me {
+    margin: 0;
+    position: inline-flex;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(16, 152, 231, 0.973);
+    color: white;
+    text-align: center;
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+.topContainerTech{
+    background: url('boxGloves.jpg') no-repeat center;
+    background-size: cover;
+    font-family: 'Serif'; font-size: 100%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    height: 700px;
+    font-size: 70px;
+    margin-top: 0;
+    
+}
+.topContainerTech{
+    height: 700px;
+    text-align: center;
+}
+.topContainerTech .topTitleTech{
+    font-size:70px;
+    margin-top:0;
+}
+.topContainerTech .topContainerWordsTech{
+    display:inline-flex;
+    font-size: 25px;
+}
+.topContainerTech .codeSecTech{
+    margin-right:10%;
+    display: inline-block;
+}
+
+.topContainerTech .SESecTech{
+    margin-left:10%;
+    display: inline-block;
+}
+.topContainerTech #seParTech{
+    font-weight: bold;
+    width:400px;
+}
+.topContainerTech #codeParTech{
+    text-transform:Uppercase;
+    font-weight: bold;
+}
+.topContainerTech .blahTech{
+    padding-top: 200px;
+}
+
+.bottomContainerTech{
+    border: 5px solid blue;
+    background-color: rgba(16, 152, 231, 0.973);
+    position: center;
+    max-width: 60%;
+    width:100%;
+    padding: 50px;
+    margin: 20px auto;
+
+}
+
+.topContainer{
+    background: url('flyingKnee.jpg') no-repeat center;
+    background-size: cover;
+    font-family: 'Serif'; font-size: 100%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    height: 700px;
+    font-size: 70px;
+    margin-top: 0;
+}
+.topContainer{
+    height: 700px;
+    text-align: center;
+}
+.topContainer .topTitle{
+    font-size:70px;
+    margin-top:0;
+}
+.topContainer .topContainerWords{
+    display:inline-flex;
+    font-size: 25px;
+}
+.topContainer .codeSec{
+    margin-right:10%;
+    display: inline-block;
+}
+
+.topContainer .SESec{
+    margin-left:10%;
+    display: inline-block;
+}
+.topContainer #sePar{
+    font-weight: bold;
+    width:400px;
+}
+.topContainer #codePar{
+    text-transform:Uppercase;
+    font-weight: bold;
+}
+.topContainer .blah{
+    padding-top: 200px;
+}
+
+.bottomContainer{
+    border: 5px solid blue;
+    background-color: rgba(16, 152, 231, 0.973);
+    position: center;
+    max-width: 60%;
+    width:100%;
+    padding: 50px;
+    margin: 20px auto;
+
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+footer button{
+    background: red;
+    color: white;
+    border: 1px solid #1a1a1a;
+    border-radius: 25%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2s ease-in-out;
+}
