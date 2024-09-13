@@ -241,6 +241,54 @@ body {
 .topContainer .blah{
     padding-top: 200px;
 }
+.topContainerServ{
+    background-size: cover;
+    font-family: 'Serif'; font-size: 100%;
+    color: White;
+    text-align: center;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    height: 700px;
+    font-size: 70px;
+    margin-top: 0;
+}
+.topContainerServ{
+    height: 200px;
+    text-align: center;
+}
+.topContainerServ .topTitle{
+    font-size:70px;
+    margin-top:0;
+    writing-mode: vertical-lr;
+    float:right;
+    text-orientation: upright;
+}
+.topContainerServ .topContainerWords{
+    color:black;
+    display:inline-flex;
+    font-size: 0;
+}
+.topContainerServ .codeSec{
+    margin-right:10%;
+    display: inline-block;
+}
+
+.topContainerServ .SESec{
+    margin-left:10%;
+    display: inline-block;
+}
+.topContainerServ #sePar{
+    font-weight: bold;
+    width:400px;
+}
+.topContainerServ #codePar{
+    text-transform:Uppercase;
+    font-weight: bold;
+}
+.topContainerServ .blah{
+    padding-top: 200px;
+}
 
 .bottomContainer{
     border: 5px solid blue;
