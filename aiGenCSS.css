@@ -14,28 +14,12 @@ header .container {
     position: relative;
 }
 
-.back-btn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    background: #e63946;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.back-btn:hover {
-    background: #d62828;
-}
-
 /* Rest of the CSS remains unchanged */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #030000;
 }
 
 header {

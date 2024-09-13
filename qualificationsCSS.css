@@ -43,7 +43,7 @@ body {
 /*header/introduction box*/
 
 .topContainer{
-    background: url('knee.jpg') no-repeat center;
+    background: url('flyingKnee.jpg') no-repeat center;
     background-size: cover;
     font-family: 'Serif'; font-size: 100%;
     color: white;

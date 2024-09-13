@@ -43,10 +43,10 @@ body {
 /*header/introduction box*/
 
 .topContainer{
-    background: url('flyingKnee.jpg') no-repeat center;
+    background: url('respect.jpg') no-repeat top;
     background-size: cover;
     font-family: 'Serif'; font-size: 100%;
-    color: black;
+    color: white;
     text-align: center;
     margin: 0 auto;
     max-width: auto;
