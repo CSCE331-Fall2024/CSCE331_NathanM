@@ -20,6 +20,10 @@ body {
     text-decoration: none;
     margin: 0 10px;
 }
+.navigation .themeButton{
+    text-decoration: none;
+    margin: 0 10px;
+}
 
 .navigation button {
     background:red;
