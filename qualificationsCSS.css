@@ -1,0 +1,116 @@
+body {
+    
+    background-size: cover;
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    background-image: #020202;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+/* Navigation section */
+.navigation {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #1a1a1a;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation button {
+    background:red;
+    color: white;
+    border: 1px solid #1a1a1a;
+    border-radius: 25%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navigation button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #1a1a1a;
+}
+
+/*header/introduction box*/
+
+.topContainer{
+    background: url('knee.jpg') no-repeat center;
+    background-size: cover;
+    font-family: 'Serif'; font-size: 100%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    height: 700px;
+    font-size: 70px;
+    margin-top: 0;
+}
+.topContainer{
+    height: 700px;
+    text-align: center;
+}
+.topContainer .topTitle{
+    font-size:70px;
+    margin-top:0;
+}
+.topContainer .topContainerWords{
+    display:inline-flex;
+    font-size: 25px;
+}
+.topContainer .codeSec{
+    margin-right:10%;
+    display: inline-block;
+}
+
+.topContainer .SESec{
+    margin-left:10%;
+    display: inline-block;
+}
+.topContainer #sePar{
+    font-weight: bold;
+    width:400px;
+}
+.topContainer #codePar{
+    text-transform:Uppercase;
+    font-weight: bold;
+}
+.topContainer .blah{
+    padding-top: 200px;
+}
+
+.bottomContainer{
+    border: 5px solid blue;
+    background-color: rgba(16, 152, 231, 0.973);
+    position: center;
+    max-width: 60%;
+    width:100%;
+    padding: 50px;
+    margin: 20px auto;
+
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+footer button{
+    background:red;
+    color: white;
+    border: 1px solid #1a1a1a;
+    border-radius: 25%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.2s ease-in-out;
+}
